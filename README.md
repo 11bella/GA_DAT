@@ -1,2 +1,2 @@
 # GA_DAT
-Coursework
+Coursework for the Data Science course at GA.
