@@ -71,9 +71,16 @@ Bonus: Sort the list by the length of the names (shortest to longest).
 
 
 #[your code here]
-
-
-
+fam = ['Evan', 'Cailyn', 'Pam', 'Dave']
+print fam[-1]
+print len(fam[0])
+fam[1] = 'Kaykay'
+fam.append('Dog')
+fam[-1] = fam[-1].lower()
+fam = sorted(fam, reverse=True)
+print fam
+fam = sorted(fam, key=lambda length: len(length))
+print fam
 
 '''
 FOR LOOPS AND LIST COMPREHENSIONS
